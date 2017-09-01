@@ -1,0 +1,35 @@
+# config context path to "/" by setting an empty string
+server:
+  port : 6868
+  contextPath: /mobilefacto
+
+# JACKSON
+spring:
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/devicemanager
+    username: myuser
+    password: rexpoede
+    driver-class-name: com.mysql.jdbc.Driver
+    
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+     
+
+
+jwt:
+  header: Authorization
+  secret: tasksSecret
+  expiration: 604800
+  route:
+    authentication:
+      path: auth
+      refresh: refresh
+      
+logging:
+  level:
+    org.springframework:
+      security: INFO

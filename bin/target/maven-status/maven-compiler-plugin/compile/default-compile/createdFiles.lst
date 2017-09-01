@@ -1,0 +1,17 @@
+fr\nico\api\controller\AdminRestController.class
+fr\nico\api\controller\AuthenticationRestController.class
+fr\nico\api\security\WebSecurityConfig.class
+fr\nico\api\security\JwtUserFactory.class
+fr\nico\api\entity\Authority.class
+fr\nico\api\security\JwtUserDetailsServiceImpl.class
+fr\nico\api\security\JwtAuthenticationResponse.class
+fr\nico\api\repository\UserRepository.class
+fr\nico\api\controller\UserRestController.class
+fr\nico\api\security\JwtAuthenticationRequest.class
+fr\nico\api\security\JwtTokenUtil.class
+fr\nico\api\entity\AuthorityName.class
+fr\nico\api\security\JwtAuthenticationEntryPoint.class
+fr\nico\api\security\JwtUser.class
+fr\nico\api\MyApiApplication.class
+fr\nico\api\entity\User.class
+fr\nico\api\security\JwtAuthenticationTokenFilter.class
